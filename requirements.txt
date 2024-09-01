@@ -1,5 +1,11 @@
 streamlit
-sqlite3
-openai
-schedule
+streamlit-option-menu
+groq
+pandas
 matplotlib
+plotly
+pydub
+coloredlogs
+dotenv
+speech_recognition
+requests
