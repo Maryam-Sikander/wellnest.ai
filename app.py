@@ -5,7 +5,6 @@ from journal import interactive_gratitude_journal
 from groq_response import initialize_chat, generate_response, voice_to_text
 import base64
 
-
 # Initialize the WellnessAnalytics instance
 analytics = WellnessAnalytics()
 
