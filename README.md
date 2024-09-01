@@ -1,4 +1,4 @@
-![WELLNEST Logo](WELLNEST.png) 
+<img src="WELLNEST.png" alt="NoteWorthy Logo" width="190" height="190">
 
 # WELLNEST
 ![image](https://github.com/user-attachments/assets/c063511a-7655-4682-9355-c66d0953a8ba)
