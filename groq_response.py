@@ -7,7 +7,7 @@ import os
 import streamlit as st
 import speech_recognition as sr
 
-# Load environment variables from .env file
+# Load environment variables from .env 
 load_dotenv()
 
 # Set up logging
@@ -16,7 +16,7 @@ coloredlogs.install(level=config('LOG_LEVEL', 'INFO'), logger=logger)
 
 # Groq configuration
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-GROQ_MODEL = 'mixtral-8x7b-32768'
+GROQ_MODEL = 'llama3-70b-8192'
 TIMEOUT = 120
 
 # Initialize the Groq client

@@ -125,7 +125,7 @@ def interactive_gratitude_journal():
         st.session_state.journal_entries = pd.concat([st.session_state.journal_entries, pd.DataFrame([entry])], ignore_index=True)
         st.success("Your reflections have been saved! 🎉")
 
-    # View previous entries
+    # View  entries
     if st.checkbox("View Journey of Gratitude"):
         if 'journal_entries' in st.session_state and not st.session_state.journal_entries.empty:
             st.dataframe(st.session_state.journal_entries.style.highlight_max(axis=0))

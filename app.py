@@ -111,4 +111,4 @@ elif selected_tab == "Wellness Tracking":
 
 # ------------------------- Journal tab -------------------------------
 elif selected_tab == "Gratitude Journal":
-    interactive_gratitude_journal()  # Call the journal feature
+    interactive_gratitude_journal() 
